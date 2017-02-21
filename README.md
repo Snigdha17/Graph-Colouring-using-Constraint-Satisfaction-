@@ -24,8 +24,10 @@ example: python minconflicts.py minconflicts_easy output.txt
 
 The format of the input is as follows:
 
+There are N variables numbered 0 to N-1 and M constraints connecting them. There are K possible colors for each of the variables, so the domain for all variables is the same. In the input, N,M,K are entered first. Then on each separate line variables U and V are provided. There will be M lines following the first line
+
 N  M  K 
-v0 u0 // variables v0 and u0 should not have the same color
+v0 u0  # variables v0 and u0 should not have the same color
 v1 u1
 ... 
 ...
